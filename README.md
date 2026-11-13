@@ -612,14 +612,14 @@ Perguntas de reflexao:
 
 Verifique:
 
-- [ ] Dados de vendas foram gerados
-- [ ] Word Count executou com sucesso
-- [ ] Analise de vendas executou completamente
-- [ ] Resultados foram gravados em `data/output/`
-- [ ] `python3 validate_sales_outputs.py` terminou com status zero e mensagem `OK:`
-- [ ] Voce identificou transformacoes e acoes nos scripts
-- [ ] Voce consegue interpretar os resultados de negocio
-- [ ] Opcional: voce criou e executou a analise extra por regiao e categoria
+- [x] Dados de vendas foram gerados
+- [x] Word Count executou com sucesso
+- [x] Analise de vendas executou completamente
+- [x] Resultados foram gravados em `data/output/`
+- [x] `python3 validate_sales_outputs.py` terminou com status zero e mensagem `OK:`
+- [x] Voce identificou transformacoes e acoes nos scripts
+- [x] Voce consegue interpretar os resultados de negocio
+- [x] Opcional: voce criou e executou a analise extra por regiao e categoria
 
 ---
 
@@ -668,13 +668,13 @@ Requisitos:
 
 Antes de submeter, verifique:
 
-- [ ] Todos os 13 screenshots obrigatorios foram capturados
-- [ ] Screenshots estao legiveis
-- [ ] Scripts executaram sem erro
-- [ ] Resultados foram gerados em `data/output/`
-- [ ] Voce consegue explicar ao menos duas transformacoes e duas acoes usadas
-- [ ] Voce consegue interpretar os principais resultados de negocio
-- [ ] Se realizou o desafio opcional, incluiu as evidencias 14, 15 e 16
+- [x] Todos os 13 screenshots obrigatorios foram capturados
+- [x] Screenshots estao legiveis
+- [x] Scripts executaram sem erro
+- [x] Resultados foram gerados em `data/output/`
+- [x] Voce consegue explicar ao menos duas transformacoes e duas acoes usadas
+- [x] Voce consegue interpretar os principais resultados de negocio
+- [x] Se realizou o desafio opcional, incluiu as evidencias 14, 15 e 16
 
 ### 5.6 Duvidas frequentes
 

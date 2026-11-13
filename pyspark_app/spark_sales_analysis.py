@@ -330,9 +330,9 @@ def analysis_revenue_by_region_category(df):
     result.write.mode("overwrite").csv(
         "data/output/revenue_by_region_category", header=True
     )
+    print("Resultado salvo em: data/output/revenue_by_region_category")
 
     return result
-
 
 def generate_executive_summary(df):
     """
