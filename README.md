@@ -212,11 +212,11 @@ df_selected.count()
 
 Antes de prosseguir, confirme:
 
-- [ ] Voce compreende a diferenca entre driver e executor
-- [ ] Voce entende o que sao RDDs e DataFrames
-- [ ] Voce sabe diferenciar transformacoes e acoes
-- [ ] Voce compreende o conceito de lazy evaluation
-- [ ] Voce consegue comparar Spark com MapReduce
+- [x] Voce compreende a diferenca entre driver e executor
+- [x] Voce entende o que sao RDDs e DataFrames
+- [x] Voce sabe diferenciar transformacoes e acoes
+- [x] Voce compreende o conceito de lazy evaluation
+- [x] Voce consegue comparar Spark com MapReduce
 
 ---
 
@@ -271,10 +271,10 @@ Campos:
 
 Verifique:
 
-- [ ] Voce compreende o contexto do problema de negocio
-- [ ] Voce entende a estrutura dos dados
-- [ ] Voce sabe quais perguntas serao respondidas pelas analises
-- [ ] Voce consegue identificar colunas de dimensao e colunas de medida
+- [x] Voce compreende o contexto do problema de negocio
+- [x] Voce entende a estrutura dos dados
+- [x] Voce sabe quais perguntas serao respondidas pelas analises
+- [x] Voce consegue identificar colunas de dimensao e colunas de medida
 
 ---
 
@@ -361,13 +361,13 @@ Os comandos de verificacao desta secao sao executados na raiz do repositorio. Co
 
 Verifique:
 
-- [ ] Fork do repositorio foi criado com sucesso
-- [ ] Codespace foi aberto a partir do seu fork
-- [ ] Python 3 esta instalado
-- [ ] Java esta instalado
-- [ ] PySpark esta instalado
-- [ ] Dados de exemplo foram gerados
-- [ ] Arquivos da aplicacao estao presentes
+- [x] Fork do repositorio foi criado com sucesso
+- [x] Codespace foi aberto a partir do seu fork
+- [x] Python 3 esta instalado
+- [x] Java esta instalado
+- [x] PySpark esta instalado
+- [x] Dados de exemplo foram gerados
+- [x] Arquivos da aplicacao estao presentes
 
 ---
 
