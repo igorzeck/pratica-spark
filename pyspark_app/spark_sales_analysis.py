@@ -311,6 +311,29 @@ def analysis_product_performance(df):
     
     return result
 
+def analysis_revenue_by_region_category(df):
+    """
+    Análise 7: Receita por região e categoria
+    """
+    print("\n" + "="*60)
+    print("ANALISE EXTRA: RECEITA POR REGIÃO E CATEGORIA")
+    print("="*60)
+    
+    result = df.groupBy("region", "category").agg(
+        sum("revenue").alias("total_revenue"),
+        sum("quantity").alias("total_quantity"),
+        count("*").alias("num_transactions")
+    ).orderBy("region", desc("total_revenue"))
+
+    print("\nAnálise de receita por região e categoria:")
+    result.show(truncate=False)
+    result.write.mode("overwrite").csv(
+        "data/output/revenue_by_region_category", header=True
+    )
+
+    return result
+
+
 def generate_executive_summary(df):
     """
     Gera resumo executivo com KPIs principais
@@ -387,6 +410,7 @@ def main():
         analysis_customer_metrics(df)
         analysis_temporal_trends(df)
         analysis_product_performance(df)
+        analysis_revenue_by_region_category(df)
         
         # Resumo executivo
         generate_executive_summary(df)
